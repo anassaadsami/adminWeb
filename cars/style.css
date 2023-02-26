@@ -1,31 +1,72 @@
-.cons{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 40px;
+.cons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }
 
-table, th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  align-items: center;
 }
 
- th, td{
-    padding: 5px 20px;
+th,
+td {
+  padding: 5px 20px;
 }
 
-#buttons{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
+#buttons {
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 30px;
 }
-#btn-edit{
-    color: orange;
+#btn-edit {
+  color: orange;
 }
-#btn-remove{
-    color: red;
+#btn-remove {
+  color: red;
 }
-button{
-    padding: 4px 10px;
-    min-width: 80px;
+
+#btn-add {
+  color: blue;
+  margin-top: 5px;
+}
+button {
+  padding: 4px 10px;
+  min-width: 80px;
+}
+
+.hide {
+  display: none;
+}
+/* #td_action { 
+  width: 300px;
+  display: flex;
+} */
+
+#newCar {
+   margin: auto;
+   margin-top: 10px;
+    
+} 
+
+#newCar p , input {
+    margin-left: 10px;
+    /* color: rgb(31, 224, 34); */
+
+}
+
+
+.hidden {
+    display: none;
+}
+
+#saveNew {
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
 }
